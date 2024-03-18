@@ -1,7 +1,7 @@
 function createHelloWorld() {
-    return function () {
-        return "Hello World";
-    };
+  return function () {
+    return 'Hello World';
+  };
 }
 
 const f = createHelloWorld();
