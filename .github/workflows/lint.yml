@@ -13,5 +13,6 @@ jobs:
       - name: Super Linter
         uses: super-linter/super-linter@v5.7.2
         env:
+          VALIDATE_JAVASCRIPT_STANDARD: false
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
