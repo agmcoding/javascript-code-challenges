@@ -6,13 +6,14 @@ Given an integer `n`, return a `counter`. This `counter` function initially retu
 
 ## Example 1
 
-Input:
-n = 10
+**Input:**
+
+n = 10;
 ["call", "call", "call"]
 
-Output: [10, 11, 12]
+**Output:** [10, 11, 12]
 
-Explanation:
+**Explanation:**
 
 counter() = 10 // The first time counter() is called, it returns n.
 
@@ -22,17 +23,18 @@ counter() = 12 // Returns 1 more than the previous time.
 
 ## Example 2
 
-Input:
-n = -2
+**Input:**
+
+n = -2;
 ["call", "call", "call", "call", "call"]
 
-Output: [-2, -1, 0, 1, 2]
+**Output:** [-2, -1, 0, 1, 2]
 
-Explanation: counter() initially returns -2. Then increases after each subsequent call.
+**Explanation:** counter() initially returns -2. Then increases after each subsequent call.
 
 ## Constraints
 
 * `-1000 <= n <= 1000`
 * `0 <= call.length <= 1000`
-* calls[i] === "call"
+* `calls[i] === "call"`
 
