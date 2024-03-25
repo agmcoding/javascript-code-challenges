@@ -24,7 +24,7 @@ Write a function `expect` that helps developers test their code. It should take 
 
 **Explanation**: 5 !== null so this expresion throw the error "Not Equal".
 
-# Example 3
+## Example 3
 
 **Input**: func = () => expect(5).notToBe(null)
 
