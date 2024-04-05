@@ -45,7 +45,7 @@ fn can also accept the index of each element. In this case, the function removes
 
 **Explanation**:
 
-Falsey values such as 0 should be filtered out.
+Falsy values such as 0 should be filtered out.
 
 ## Constraints
 
