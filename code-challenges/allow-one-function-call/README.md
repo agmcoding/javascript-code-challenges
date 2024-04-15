@@ -9,7 +9,7 @@ Given a function `fn`, return a new function that is identical to the original f
 
 ## Example 1
 
-**Input**: fn = (a, b, c) => (a + b + c), calls = [[1, 2, 3], [2, 3, 6]]
+**Input**: `fn = (a, b, c) => (a + b + c), calls = [[1, 2, 3], [2, 3, 6]]`
 
 **Output**: [{"calls": 1, "value": 6}]
 
@@ -23,7 +23,7 @@ onceFn(2, 3, 6); // undefined, fn was not called
 
 ## Example 2
 
-**Input**: fn = (a, b, c) => (a * b * c), calls = [[5, 7, 4], [2, 3, 6], [4, 6, 8]]
+**Input**: `fn = (a, b, c) => (a * b * c), calls = [[5, 7, 4], [2, 3, 6], [4, 6, 8]]`
 
 **Output**: [{"calls": 1, "value": 140}]
 
